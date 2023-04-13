@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+
+input{
+  margin: 20px;
+}
+
+
+.form{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.login{
+  
+  border: 1px solid rgb(0, 0, 0);
+  width: 450px;
+  height: 300px;
+  
+}
+
+/* .links{
+  text-decoration: none;
+  color: rgb(9, 8, 8);
+} */
+
+a{
+  text-decoration: none;
+  color: rgb(9, 8, 8);
+}
+.nav{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  background-color: gainsboro;
+  border-radius: 5px;
+  box-shadow: 0px 1px 12px gainsboro;
+}
+
+logo{
+  color: rgb(111, 105, 105);
+}
+
+#menu{
+  
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.logoutbtn{
+  color: rgb(216, 18, 18);
+  background-color: rgb(253, 255, 239);
+  border: none;
+  width: 70px;
+  height: 30px;
+  border-radius: 3.7px;
+}
+
+.logoutbtn:hover{
+  color: rgb(255, 3, 3);
+  background-color: rgb(254, 254, 254);
+  border: none;
+  width: 70px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.card{
+  width:30vw;
+  border: 0.5px solid rgb(244, 242, 242);
+  border: none;
+  box-shadow: 0px 0px 3px;
+  border-radius: 2px;
+  height: 36vh;
+  position: relative;
+  padding: 5px;
+  
+}
+.price{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.productSection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 10px;
+ margin-top: 50px;
+ 
+}
+
+.mainContent{
+  background-color: green;
+  height: 400px;
+  width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  box-shadow: 0 0 8px;
+}
+
+
+.leftContent{
+  background-color: rgb(13, 10, 10);
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rightContent{
+  background-color: rgb(238, 227, 227);
+  width: 70%;
+}
+
+
+
+
+
+
+
